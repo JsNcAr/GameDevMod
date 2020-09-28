@@ -1,0 +1,13 @@
+{
+    "id": "MyMod",
+    "name": "Expansion Pack Mod (Modified)",
+    "version": "0.1",
+    "author": "RamsusKirle",
+    "description": "============================================================================\\nExpansion Pack Mod ~ DzjengisKhan \\n============================================================================\\nThis is the one and only Expansion Pack Mod made by DzjengisKhan, bringing the mod from the forums to the workshop! \\n\\nThis mod adds loads of new content for YOU to enjoy a new gameplay! It adds topics, researches, custom prices, difficulties, custom computers and many more! \\n\\nTry it out yourself and decide if you can ever live without it!  \\n============================================================================\\nFeatures \\n\\n- 80 New topics \\n- 11 New platforms \\n- 8 New events \\n- 22 New research options \\n- Black Bull (energy drink for your staff) \\n- Custom prices: Choose your own price for the game (beware, to expensive games with bad score can lower your sales) \\n- Custom computers: Create your own computers from scratch. Selecting the OS, CPU, motherboard and more \\n- Possibility to search for a certain topic when you start creating a game============================================================================\\n\\nDon't forget to rate or comment to let me know what you think of the mod!",
+    "url": "https://github.com/DzjengisKhan/GDT-Expansion-Pack",
+    "main": "./ExpansionPack.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "image": "ExpPack-Thumbnail-Thumbnail.png"
+}
