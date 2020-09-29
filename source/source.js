@@ -83,24 +83,22 @@ var ExpPack = {};
 		},  /* D aqui voy*/ {
 			id: "Dark Fantasy",
 			name: "Dark Fantasy".localize("game topic"),
-			genreWeightings: [1, 0.8, 1, 0.6, 1, 0.6],
-			audienceWeightings: [0.6, 0.6, 1]
+			genreWeightings: [1, 1, 1, 0.6, 0.8, 0.6],
+			audienceWeightings: [0.6, 0.6, 1],
+	    	missionOverrides: [
+			[0, 0, 0.8, 0.8, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0.9],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0]
+			]
 		}, {
 	    	id: "Demons",
 	    	name: "Demons".localize("game topic"),
-	    	genreWeightings: [1, 0.8, 1, 0.6, 0.6, 0.6],
+	    	genreWeightings: [1, 0.8, 1, 0.6, 0.7, 0.6],
 	    	audienceWeightings: [0.6, 0.7, 1]
-		}, {
-	    	id: "Dinosaurs",
-	    	name: "Dinosaurs".localize("game topic"),
-	    	genreWeightings: [1, 0.9, 0.6, 0.9, 0.7, 0.6],
-	    	audienceWeightings: [1, 0.9, 0.7]
-		}, {
-	    	id: "Doctor",
-	    	name: "Doctor".localize("game topic"),
-	    	genreWeightings: [0.6, 0.6, 0.9, 1, 1, 0.7],
-	    	audienceWeightings: [0.6, 0.8, 1]
-		}, /* E */ {
+		},  /* E */ {
 		    id: "E-Sports",
 		    name: "E-Sports".localize("game topic"),
 		    genreWeightings: [1, 0.6, 0.7, 0.9, 1, 0.6],
