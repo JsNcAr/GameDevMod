@@ -28,47 +28,47 @@ var ExpPack = {};
 	ExpPack.addTopic = function () {
 		GDT.addTopics([
 		{
-		    id: "Assassin",
+		    id: "Assassin", // ________________________________________1
 		    name: "Assassin".localize("game topic"),
 		    genreWeightings: [1, .9, .8, 1, 1, .6],
 		    audienceWeightings: [0.8, 0.8, 1]
 		}, {
-		    id: "Astronaut",
+		    id: "Astronaut", // _______________________________________2
 		    name: "Astronaut".localize("game topic"),
 		    genreWeightings: [.9, .9, .9, 1, .8, .8],
 			audienceWeightings: [0.8, 1, 0.8]
 		}, {
-		    id: "Athletics",
+		    id: "Athletics", // _______________________________________3
 		    name: "Athletics".localize("game topic"),
 		    genreWeightings: [.9, .8, .9, 1, .6, .9],
 			audienceWeightings: [0.8, 1, 0.8]
 		}, /* B */ {
-			id: "Beat-em-up",
+			id: "Beat-em-up", // ______________________________________4
 			name: "Beat-em-up".localize("game topic"),
 			genreWeightings: [1, .9, .8, .6, .8, .9],
 			audienceWeightings: [0.8, 0.8, 1]
 		}, {
-	    	id: "Board Game",
+	    	id: "Board Game", // ______________________________________5
 	    	name: "Board Game".localize("game topic"),
 	    	genreWeightings: [.8, .6, .6, .8, 1, 1],
 	    	audienceWeightings: [1, 0.8, 1]
 		}, /* C */ {
-		    id: "Card Game",
+		    id: "Card Game", // _______________________________________6
 		    name: "Card Game".localize("game topic"),
 		    genreWeightings: [.9, .6, .9, .7, 1, .9],
 		    audienceWeightings: [0.8, 0.9, 1]
 		}, {
-		    id: "Chess",
+		    id: "Chess", // ___________________________________________7
 		    name: "Chess".localize("game topic"),
 		    genreWeightings: [.6, .6, .6, 1, 1, .9],
 		    audienceWeightings: [0.6, 1, 1]
 		}, {
-		    id: "Construction",
+		    id: "Construction", // ____________________________________8
 		    name: "Construction".localize("game topic"),
 		    genreWeightings: [0.6, 0.6, 0.7, 1, 0.9, 1],
 		    audienceWeightings: [1, 0.9, 0.8]
 		}, {
-		    id: "Cycling",
+		    id: "Cycling", // _________________________________________9
 		    name: "Cycling".localize("game topic"),
 		    genreWeightings: [.9, 1, .8, 1, .8, .9],
 		    audienceWeightings: [0.8, 1, 0.9],
@@ -80,8 +80,8 @@ var ExpPack = {};
 			[1, 0.9, 0, 0, 0, 0, 0, 0, 0],
 			[1, 1, 0, 0, 0, 0, 0.9, 0, 0]
 			]
-		},  /* D aqui voy*/ {
-			id: "Dark Fantasy",
+		},  /* D */ {
+			id: "Dark Fantasy", // ____________________________________10
 			name: "Dark Fantasy".localize("game topic"),
 			genreWeightings: [1, 1, 1, 0.6, 0.8, 0.6],
 			audienceWeightings: [0.6, 0.6, 1],
@@ -94,12 +94,12 @@ var ExpPack = {};
 			[0, 0, 0, 0, 0, 0, 0, 0, 0]
 			]
 		}, {
-	    	id: "Demons",
+	    	id: "Demons", // __________________________________________11
 	    	name: "Demons".localize("game topic"),
 	    	genreWeightings: [1, 0.8, 1, 0.6, 0.7, 0.6],
 	    	audienceWeightings: [0.6, 0.7, 1]
 		},  /* E */ {
-		    id: "E-Sports",
+		    id: "E-Sports", // ________________________________________12
 		    name: "E-Sports".localize("game topic"),
 		    genreWeightings: [1, 0.6, 0.7, 0.9, 1, 0.6],
 		    audienceWeightings: [1, 0.9, 0.8],
@@ -112,111 +112,77 @@ var ExpPack = {};
 			[0, 0, 0, 1, 0.9, 0, 0, 0, 0]
 			]
 		}, {
-		    id: "Educational",
+		    id: "Educational", // _____________________________________13
 		    name: "Educational".localize("game topic"),
-		    genreWeightings: [0.6, 0.6, 0.6, 1, 0.8, 1],
-		    audienceWeightings: [1, 0.8, 0.6]
+		    genreWeightings: [0.7, 0.8, 0.6, 1, 1, 1],
+		    audienceWeightings: [1, 0.8, 0.8]
 		}, /* F */ {
-		    id: "Fairy Tale",
-		    name: "Fairy Tale".localize("game topic"),
-		    genreWeightings: [0.8, 1, 0.8, 0.8, 0.6, 1],
-		    audienceWeightings: [1, 0.8, 0.6]
-		}, {
-		    id: "Fishing",
+		    id: "Fishing", // _________________________________________14
 		    name: "Fishing".localize("game topic"),
-		    genreWeightings: [0.6, 0.7, 0.9, 1, 1, 0.8],
+		    genreWeightings: [0.7, 0.8, 0.6, 1, 0.7, 1],
 		    audienceWeightings: [0.7, 1, 0.9]
 		}, {
-		    id: "Football",
+		    id: "Football", // ________________________________________15
 		    name: "Football".localize("game topic"),
-		    genreWeightings: [1, 0.7, 1, 0.8, 1, 0.9],
+		    genreWeightings: [1, 0.7, 0.8, 1, 0.9, 0.9],
 		    audienceWeightings: [0.9, 1, 0.9]
-		}, {
-		    id: "Formula 1",
-		    name: "Formula 1".localize("game topic"),
-		    genreWeightings: [1, 0.8, 0.8, 0.8, 1, 1],
-		    audienceWeightings: [0.7, 1, 1]
-		}, /* G */ {
-		    id: "Ghosts",
-		    name: "Ghosts".localize("game topic"),
-		    genreWeightings: [0.8, 1, 0.9, 0.6, 0.6, 0.8],
-		    audienceWeightings: [1, 0.8, 0.9]
-		}, {
-		    id: "Goblin",
-		    name: "Goblin".localize("game topic"),
-		    genreWeightings: [0.9, 1, 1, 0.8, 0.6, 1],
-		    audienceWeightings: [0.9, 1, 0.9]
-		}, {
-		    id: "Gods",
-		    name: "Gods".localize("game topic"),
-		    genreWeightings: [1, 1, 1, 0.7, 0.8, 0.6],
+		}, /* G */  {
+		    id: "God Game", // ________________________________________16
+		    name: "God Game".localize("game topic"),
+		    genreWeightings: [0.7, 0.9, 0.6, 1, 1, 0.8],
 		    audienceWeightings: [0.7, 1, 0.9]
-		}, /* H */ {
-		    id: "Hide and Seek",
-		    name: "Hide and Seek".localize("game topic"),
-		    genreWeightings: [0.6, 1, 0.7, 0.8, 0.7, 1],
-		    audienceWeightings: [1, 0.9, 0.6]
-		}, {
-		    id: "Hockey",
-		    name: "Hockey".localize("game topic"),
-		    genreWeightings: [0.8, 0.6, 0.7, 1, 1, 0.7],
-		    audienceWeightings: [0.9, 1, 0.9]
-		}, {
-		    id: "Horse Racing",
-		    name: "Horse Racing".localize("game topic"),
-		    genreWeightings: [1, 0.7, 0.9, 0.8, 1, 0.7],
-		    audienceWeightings: [0.7, 0.8, 1]
-		}, /* I */ {
-		    id: "Ice Hockey",
-		    name: "Ice Hockey".localize("game topic"),
-		    genreWeightings: [1, 0.6, 0.9, 0.8, 1, 0.7],
-		    audienceWeightings: [0.8, 0.9, 1]
-		},  {
-		    id: "Isekai",
+		},{
+	    	id: "Graphic Adventure", // _______________________________17
+	    	name: "Graphic Adventure".localize("game topic"),
+	    	genreWeightings: [0.8, 1, 1, 0.8, 0.9, 0.7],
+	    	audienceWeightings: [0.8, 0.8, 1],
+	    	missionOverrides: [
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0.8, 0, 0.7, 0],
+			[0, 0, 0, 0, 0, 0.8, 0, 0.7, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0]
+			]
+		},  /* H */   {
+		    id: "Isekai", // __________________________________________18
 		    name: "Isekai".localize("game topic"),
 		    genreWeightings: [0.9, 1, 1, .7, .8, .7],
 			audienceWeightings: [1, 0.9, 0.8]
-		}, /* K */ {
-		    id: "Karate",
-		    name: "Karate".localize("game topic"),
-		    genreWeightings: [1, 0.7, 1, 0.7, 1, 0.7],
-		    audienceWeightings: [0.7, 0.9, 1]
-		}, /* M */ {
-	    	id: "Maze",
-	    	name: "Maze".localize("game topic"),
-	    	genreWeightings: [0.8, 0.8, 0.9, 1, 0.9, 1],
-	    	audienceWeightings: [0.8, 1, 0.9]
+		},  /* M */ {
+	    	id: "Management", // ______________________________________19
+	    	name: "Management".localize("game topic"),
+	    	genreWeightings: [0.8, 0.8, 0.7, 1, 1, 0.9],
+	    	audienceWeightings: [0.8, 0.9, 1],
+	    	missionOverrides: [
+			[0.8, 0, 0.8, 0, 0, 0, 1, 0.8, 0],
+			[0, 0, 0, 0.7, 0, 0.9, 0, 0.8, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 1, 0.8, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0.8, 0, 0, 0]
+			]
 		}, {
-	    	id: "Mining",
+	    	id: "Maze", // ____________________________________________20
+	    	name: "Maze".localize("game topic"),
+	    	genreWeightings: [0.7, 0.8, 0.6, 1, 0.9, 1],
+	    	audienceWeightings: [1, 1, 0.7]
+		}, {
+	    	id: "Mining", // __________________________________________21
 	    	name: "Mining".localize("game topic"),
-	    	genreWeightings: [0.8, 1, 0.9, 0.8, 0.7, 1],
+	    	genreWeightings: [0.9, 1, 0.8, 1, 0.8, 0.8],
 	    	audienceWeightings: [1, 0.9, 0.7]
 		}, {
-		    id: "Motorcross",
+		    id: "Motorcross", // ______________________________________22
 		    name: "Motorcross".localize("game topic"),
-		    genreWeightings: [1, 1, 0.8, 0.6, 0.9, 0.7],
+		    genreWeightings: [1, 0.8, 0.6, 1, 0.7, 1],
 		    audienceWeightings: [0.8, 0.9, 1]
-		},  {
-		    id: "Mummies",
-		    name: "Mummies".localize("game topic"),
-		    genreWeightings: [1, 1, 0.7, 0.7, 0.7, 1],
-		    audienceWeightings: [0.7, 1, 0.8]
-		}, /* P */ {
-	    	id: "Parkour",
+		},  /* P */ {
+	    	id: "Parkour", // _________________________________________23
 	    	name: "Parkour".localize("game topic"),
-	    	genreWeightings: [1, 1, 0.7, 1, 0.9, 0.6],
+	    	genreWeightings: [1, 1, 0.8, 0.8, 0.7, 0.9],
 	    	audienceWeightings: [0.7, 0.9, 1]
-		}, {
-	    	id: "Point & Click",
-	    	name: "Point & Click".localize("game topic"),
-	    	genreWeightings: [0.7, 1, 0.7, 1, 0.9, 1],
-	    	audienceWeightings: [0.9, 1, 0.7]
-		}, {
-	    	id: "Police",
-	    	name: "Police".localize("game topic"),
-	    	genreWeightings: [1, 0.9, 0.7, 0.9, 0.7, 0.6],
-	    	audienceWeightings: [0.9, 1, 0.7]
-		}, {
+		},  {
 	    	id: "Politics",
 	    	name: "Politics".localize("game topic"),
 	    	genreWeightings: [0.6, 0.6, 0.8, 1, 1, 0.7],
@@ -259,6 +225,11 @@ var ExpPack = {};
 			name: "Science".localize("game topic"),
 			genreWeightings: [0.6, 0.6, 0.7, 1, 1, 0.8],
 			audienceWeightings: [0.8, 1, 0.9]
+		}, {
+		    id: "Social Deduction",
+		    name: "Social Deduction".localize("game topic"),
+		    genreWeightings: [0.6, 1, 0.7, 0.8, 0.7, 1],
+		    audienceWeightings: [1, 0.9, 0.6]
 		}, {
 		    id: "Steampunk",
 		    name: "Steampunk".localize("game topic"),
@@ -310,7 +281,20 @@ var ExpPack = {};
 			name: "Vikings".localize("game topic"),
 			genreWeightings: [1, 0.8, 1, 0.7, 0.8, 0.6],
 			audienceWeightings: [0.7, 0.9, 1]
-		}, /* W */ {
+		}, {
+	    	id: "Visual Novel",
+	    	name: "Visual Novel".localize("game topic"),
+	    	genreWeightings: [0.8, 1, 1, 0.8, 0.7, 0.9],
+	    	audienceWeightings: [0.7, 0.9, 1],
+	    	missionOverrides: [
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0.7, 0.9],
+			[0, 0, 0, 0, 0, 0, 0, 0.7, 0.9],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0.9, 0.9, 0, 0, 0, 0.8, 0]
+			]
+		},  /* W */ {
 			id: "War",
 			name: "War".localize("game topic"),
 			genreWeightings: [1, 0.8, 0.9, 0.8, 0.6, 0.6],
